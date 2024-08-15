@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.navegation {
+    display:flex;
+}
+
+.logo {
+    font-size: 1rem;
+    padding: 2%;
+    
+}
+.logo p {
+    align-content: start;
+}
+.items {
+    text-decoration: none;
+    list-style: none;
+    margin: 1%;
+    padding: 2%;
+    align-items: center;
+}
