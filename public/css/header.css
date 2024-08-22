@@ -3,23 +3,46 @@ body {
     padding: 0;
     border: 0;
 }
-
 .navegation {
-    display:flex;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background: black;
+    height: 80px; 
 }
 
 .logo {
-    font-size: 1rem;
-    padding: 2%;
-    
+    background-color: green;
+    padding: 1%;
+    margin-left: 5%;
+    transform: scale(1.3); /*Aumenta el tamaño del div sin cambiar su posición */
 }
-.logo p {
-    align-content: start;
+
+.logo img {
+    max-width: 10%;
+    height: 10%;
+}
+
+.imagen a img {
+    max-width: 10%;
+    background-color: aliceblue;
+
 }
 .items {
-    text-decoration: none;
-    list-style: none;
-    margin: 1%;
-    padding: 2%;
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: black;
+    
 }
+
+.items {
+    margin: 2%;
+    padding-left: 2%;
+}
+
+.items a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
